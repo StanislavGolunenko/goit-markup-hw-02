@@ -146,7 +146,7 @@ color: #f4f4fd;
 .ourportfolio {
   background: #fff;
   padding: 80px 0;
-  text-align: center; /* заголовок и текст по центру */
+  text-align: center; 
 }
 
 .ourportfolio h2 {
@@ -195,7 +195,7 @@ color: #f4f4fd;
 
 .ourteam {
   background: #f4f4fd;
-  padding: 80px 0; /* отступ сверху/снизу */
+  padding: 80px 0; 
   text-align: center;
 }
 
@@ -205,15 +205,15 @@ color: #f4f4fd;
   font-size: 36px;
   line-height: 111%;
   color: #2e2f42;
-  margin-bottom: 40px; /* отступ между заголовком и карточками */
+  margin-bottom: 40px; 
 }
 
 .ourteam nav ul {
   list-style: none;
   display: flex;
-  justify-content: center; /* выравнивание по центру */
-  flex-wrap: wrap;         /* чтобы карточки переносились при необходимости */
-  gap: 24px;               /* расстояние между карточками */
+  justify-content: center; 
+  flex-wrap: wrap;         
+  gap: 24px;            
   padding: 0;
   margin: 0;
 }
@@ -223,7 +223,7 @@ color: #f4f4fd;
   border-radius: 8px;
   overflow: hidden;
   text-align: center;
-  width: 264px; /* ширина карточки */
+  width: 264px;
   flex-shrink: 0;
 }
 
@@ -245,33 +245,32 @@ color: #f4f4fd;
 
 .features {
   background: #fff;
-  padding: 80px 0;          /* отступ сверху и снизу */
-  text-align: center;        /* заголовок по центру */
-}
+  padding: 80px 0;         
+  text-align: center;       
 
 .features h2 {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 36px;
   color: #2e2f42;
-  margin-bottom: 40px;       /* отступ между заголовком и карточками */
+  margin-bottom: 40px;     
 }
 
 .features ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 колонки */
-  gap: 24px;                           /* расстояние между карточками */
-  max-width: 1128px;                   /* ограничение ширины */
-  margin: 0 auto;                      /* центрирование сетки */
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 24px;                         
+  max-width: 1128px;                 
+  margin: 0 auto;                     
   padding: 0;
 }
 
 .features li {
-  background: #f9f9f9;      /* фон карточки */
+  background: #f9f9f9;    
   border-radius: 8px;
   padding: 20px;
-  text-align: left;          /* текст внутри карточки по левому краю */
+  text-align: left;         
 }
 
 .features li h3 {
@@ -288,7 +287,7 @@ color: #f4f4fd;
 
 .footer {
   background-color: #2e2f42;
-  padding: 40px 156px;       /* отступы сверху/снизу и слева/справа */
+  padding: 40px 156px;      
   color: #f4f4fd;
 }
 
@@ -313,7 +312,7 @@ color: #f4f4fd;
   font-size: 16px;
   line-height: 150%;
   color: #f4f4fd;
-  margin-top: 100px;         /* ← отступ сверху текста 100px */
+  margin-top: 100px;        
 }
 
 
