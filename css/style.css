@@ -11,6 +11,12 @@ height: 72px;
    overflow: hidden;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455 ;
+  background-color: #FFFFFF;
+}
+
 .header-link {
 font-family: var(--second-family);
 font-weight: 500;
@@ -35,10 +41,12 @@ color: #2e2f42;
   font-size: 18px;
   text-transform: uppercase;
   color: #2e2f42;
+  font-family: "Raleway", sans-serif
 }
 
 .logo-dark .logo-blue {
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif
 }
 
 .menu, .contacts {
