@@ -232,12 +232,6 @@ color: #f4f4fd;
   margin: 0 0 16px;
 }
 
-.features-section {
-  background-color: #f4f4fd;
-  padding: 80px 0;
-  text-align: center;
-}
-
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -245,24 +239,19 @@ color: #f4f4fd;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 40px;
 }
 
 .features-list {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-  max-width: 1128px;
-  margin: 0 auto;
   padding: 0;
+  display: grid;
+  gap: 2rem;
 }
 
 .feature-item {
-  background-color: #ffffff;
-  border-radius: 8px;
-  padding: 20px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .feature-title {
@@ -271,7 +260,8 @@ color: #f4f4fd;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 16px 0 8px;
+  margin: 1rem 0 0.5rem;
+  text-align: center;
 }
 
 .feature-text {
@@ -279,7 +269,7 @@ color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin: 0;
+  text-align: center;
 }
 
 .footer-section {
