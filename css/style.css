@@ -12,8 +12,8 @@ height: 72px;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455 ;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
   background-color: #FFFFFF;
 }
 
@@ -111,7 +111,7 @@ address {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404BBF;
+  background-color: #404BBF; /* изменение фона при наведении и фокусе */
 }
 
 .logo-dark span {
