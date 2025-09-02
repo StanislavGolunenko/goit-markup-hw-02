@@ -1,88 +1,81 @@
-header {
-border-bottom: 1px solid #e7e9fc;
-max-width: 1440px;
-height: 72px;
- background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-   margin: 0;
-  padding: 0;
-   overflow: hidden;
-}
-
+/* Общие стили */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
+  margin: 0;
 }
 
-.header-link {
-font-family: var(--second-family);
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #2e2f42;
+/* Ссылки */
+a {
+  text-decoration: none;
+  color: #2e2f42;
 }
 
-.menu {
-    gap: 20px;
+a:hover,
+a:focus {
+  color: #404bbf;
 }
 
-.header-left {
-  display: flex;
-  align-items: center;
-  gap: 76px; 
-}
-
+/* Логотип */
 .logo-dark {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
   color: #2e2f42;
-  font-family: "Raleway", sans-serif
 }
 
-.logo-dark .logo-blue {
+.logo-dark span {
   color: #4d5ae5;
-  font-family: "Raleway", sans-serif
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
-.menu, .contacts {
-  display: flex;
-  gap: 20px;
+/* Навигация */
+.menu {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.menu li a, .contacts li a {
-  text-decoration: none;
-  font-family: var(--second-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  color: #2e2f42;
+.menu li {
+  margin-bottom: 0;
 }
 
-ul {
-  list-style: none; 
-  padding: 0;    
+.menu li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Адрес */
+address {
+  font-style: normal;
   margin: 0;
 }
 
-a {
-  text-decoration: none;  
+.contacts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-address {
- font-style: normal;
+.contacts li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
+/* Hero Section */
 .hero-section {
   background-color: #2e2f42;
-  padding: 60px 20px;
   text-align: center;
 }
 
@@ -104,78 +97,40 @@ address {
   letter-spacing: 0.04em;
   color: #ffffff;
   border: none;
-  padding: 12px 30px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404BBF; /* изменение фона при наведении и фокусе */
+  background-color: #404BBF;
 }
 
-.logo-dark span {
-    font-family: var(--font6);
-font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
-}
-
-.logo-blue1 {
-font-family: var(--font6);
-font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
-}
-
-.logo-white {
-    font-family: var(--font6);
-font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
-}
-
+/* Our Portfolio */
 .ourportfolio {
-  background: #fff;
-  padding: 80px 0;
-  text-align: center; 
+  background-color: #ffffff;
+  text-align: center;
 }
 
 .ourportfolio h2 {
-  font-family: var(--second-family);
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 
 .ourportfolio ul {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px; 
+  margin: 0;
   padding: 0;
-  margin: 0 auto;
-  max-width: 1128px; 
 }
 
 .ourportfolio li {
-  background: #f9f9f9; 
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
+  background-color: #f9f9f9;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .ourportfolio img {
@@ -184,38 +139,38 @@ color: #f4f4fd;
 }
 
 .ourportfolio h3 {
+  font-weight: 500;
   font-size: 20px;
-  margin: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 16px;
 }
 
 .ourportfolio p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
   margin: 0 16px 16px;
-  color: #555;
 }
+
+/* Our Team Section */
 .ourteam-section {
   background-color: #F4F4FD;
-  padding: 80px 0;
   text-align: center;
 }
 
 .team-list {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
+  margin: 0;
   padding: 0;
-  margin: 0 auto;
 }
 
 .team-item {
   background-color: #FFFFFF;
-  border-radius: 8px;
   text-align: center;
-  width: 264px;
-  flex-shrink: 0;
-  overflow: hidden;
+  margin-bottom: 24px;
 }
 
 .team-item img {
@@ -224,8 +179,8 @@ color: #f4f4fd;
 }
 
 .team-item h3 {
-  font-size: 20px;
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -240,6 +195,7 @@ color: #f4f4fd;
   margin: 0 0 16px;
 }
 
+/* Features Section */
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -251,15 +207,13 @@ color: #f4f4fd;
 
 .features-list {
   list-style: none;
+  margin: 0;
   padding: 0;
-  display: grid;
-  gap: 2rem;
 }
 
 .feature-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .feature-title {
@@ -269,7 +223,6 @@ color: #f4f4fd;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin: 1rem 0 0.5rem;
-  text-align: center;
 }
 
 .feature-text {
@@ -277,12 +230,11 @@ color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
 
+/* Footer */
 .footer-section {
   background-color: #2e2f42;
-  padding: 40px 156px;
   text-align: center;
 }
 
@@ -294,7 +246,6 @@ color: #f4f4fd;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
 }
 
 .logo-footer-text {
@@ -311,7 +262,7 @@ color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--footer-text-color, #F4F4FD);
+  color: #F4F4FD;
   margin-top: 16px;
 }
 
