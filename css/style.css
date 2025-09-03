@@ -230,52 +230,41 @@ button {
   color: #fff;
 }
 
-.ourportfolio {
-  background: #fff;
-  text-align: center; 
-  padding: 80px 0;
-}
-
-.ourportfolio h2 {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 40px; 
-}
-
-.ourportfolio ul {
-  list-style: none;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 1128px; 
-  margin: 0 auto;
-  padding: 0;
-  gap: 40px; 
-}
-
-.ourportfolio li {
-  background: #f9f9f9; 
+.portfolio-item {
+  background-color: #ffffff;
   border: 1px solid #ddd;
-  overflow: hidden;
+  border-radius: 8px;
+  padding: 16px;
   text-align: left;
 }
 
-.ourportfolio img {
+/* Изображение внутри элемента списка */
+.portfolio-item img {
   width: 100%;
+  max-width: 360px;
+  display: block;
+  margin: 0 auto;
 }
 
-.ourportfolio h3 {
+/* Заголовки элементов списка */
+.item-title {
+  font-weight: 500;
   font-size: 20px;
-  margin: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+  margin: 16px 0 8px;
 }
 
-.ourportfolio p {
-  margin: 0 16px 16px;
-  color: #555;
+/* Параграфы элементов списка */
+.item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: 0 0 16px;
 }
+
 .services {
   background-color: #F4F4FD;
   padding: 80px 0;
