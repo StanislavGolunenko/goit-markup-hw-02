@@ -1,193 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
-@import 'modern-normalize/modern-normalize.css';
-
-body {
-  font-family: "Roboto", Arial, sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-  margin: 0;
+header {
+border-bottom: 1px solid #e7e9fc;
+max-width: 1440px;
+height: 72px;
+ background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+   margin: 0;
+  padding: 0;
+   overflow: hidden;
 }
 
-/* ==============================================================
-   Header
-   ============================================================== */
-header {
-  background-color: #fff;
-  justify-content: space-around;
-  margin: 0;
-  overflow: hidden;
+.header-link {
+font-family: var(--second-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.menu {
+    gap: 20px;
 }
 
 .header-left {
+  display: flex;
+  align-items: center;
+  gap: 76px; 
 }
 
 .logo-dark {
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
+  color: #2e2f42;
 }
 
 .logo-dark .logo-blue {
+  color: #4d5ae5;
+}
+
+.menu, .contacts {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a, .contacts li a {
+  text-decoration: none;
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
   color: #2e2f42;
 }
 
-.menu,
-.contacts,
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu-link {
-  font-family: inherit;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: #404bbf;
-}
-
-.contact-link {
-  font-family: inherit;
-  color: #434455;
-  text-decoration: none;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-  color: #404bbf;
-}
-
-/* ==============================================================
-   Hero / первая секция
-   ============================================================== */
-.hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  color: #2e2f42;
-  margin: 0 auto 24px;
-  max-width: 600px;
-}
-
-.hero-btn {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4d5ae5;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-  padding: 16px 32px;
-  display: block;
-  margin: 0 auto;
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #404bbf;
-}
-
-/* ==============================================================
-   Features / 2-я секция
-   ============================================================== */
-.features-list {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  max-width: 1128px;
-}
-
-.features-item {
-  background-color: #f9f9f9;
-  text-align: left;
-  margin-bottom: 16px;
-  padding: 16px;
-}
-
-.feature-title {
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  font-size: 20px;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-
-.feature-text {
-  font-family: inherit;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-size: 16px;
-  color: #434455;
+  list-style: none; 
+  padding: 0;    
   margin: 0;
 }
 
-/* Заголовок секции features */
-.features-title {
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 36px;
-  color: #2e2f42;
-  margin-bottom: 16px;
+a {
+  text-decoration: none;  
 }
 
-.features-text {
-  font-family: inherit;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-size: 16px;
-  color: #434455;
-  margin-bottom: 24px;
+address {
+ font-style: normal;
 }
 
-/* ==============================================================
-   Our Portfolio / 3-я секция
-   ============================================================== */
+.order {
+    width: 1440px;
+height: 600px;
+background: #2e2f42;
+ margin: 0;
+  padding: 0;
+}
+
+h1 {
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 56px;
+line-height: 107%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+text-align: center;
+padding-top: 188px;
+margin: 0;
+}
+
+button {
+    border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+cursor: pointer;
+border-radius: 4px;
+ margin: 48px auto 0 auto;
+display: block;
+
+font-family: var(--second-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+.logo-dark span {
+    font-family: var(--font6);
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.logo-blue1 {
+font-family: var(--font6);
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.logo-white {
+    font-family: var(--font6);
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd;
+}
+
 .ourportfolio {
-  background-color: #fff;
+  background: #fff;
+  padding: 80px 0;
+  text-align: center; 
 }
 
 .ourportfolio h2 {
-  font-family: inherit;
+  font-family: var(--second-family);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 111%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 40px; 
 }
 
 .ourportfolio ul {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 0 auto;
-  max-width: 1128px;
+  gap: 40px; 
   padding: 0;
+  margin: 0 auto;
+  max-width: 1128px; 
 }
 
 .ourportfolio li {
-  background-color: #f9f9f9;
+  background: #f9f9f9; 
   border: 1px solid #ddd;
+  border-radius: 8px;
   overflow: hidden;
+  text-align: left;
+}
+
+.ourportfolio img {
+  width: 100%;
+  display: block;
 }
 
 .ourportfolio h3 {
@@ -201,64 +193,129 @@ ul {
   color: #555;
 }
 
-/* ==============================================================
-   Our Team / 4-я секция
-   ============================================================== */
 .ourteam {
-  background-color: #f4f4fd;
+  background: #f4f4fd;
+  padding: 80px 0; 
+  text-align: center;
 }
 
 .ourteam h2 {
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
+  font-family: var(--second-family);
+  font-weight: 700;
   font-size: 36px;
+  line-height: 111%;
   color: #2e2f42;
-  margin-bottom: 40px;
+  margin-bottom: 40px; 
+}
+
+.ourteam nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;        
+  gap: 24px;              
+  padding: 0;
+  margin: 0;
 }
 
 .ourteam li {
-  background-color: #fff;
+  background: #fff;
+  border-radius: 8px;
   overflow: hidden;
   text-align: center;
+  width: 264px; 
+  flex-shrink: 0;
 }
 
-/* ==============================================================
-   Footer
-   ============================================================== */
+.ourteam li img {
+  width: 100%;
+  display: block;
+}
+
+.ourteam li h3 {
+  font-size: 20px;
+  margin: 16px 0 4px;
+  color: #2e2f42;
+}
+
+.ourteam li p {
+  margin: 0 0 16px;
+  color: #555;
+}
+
+.features {
+  background: #fff;
+  padding: 80px 0;         
+  text-align: center;        
+}
+
+.features h2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+  margin-bottom: 40px;      
+}
+
+.features ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 24px;                          
+  max-width: 1128px;                   
+  margin: 0 auto;                      
+  padding: 0;
+}
+
+.features li {
+  background: #f9f9f9;     
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;          
+}
+
+.features li h3 {
+  font-size: 20px;
+  margin: 16px 0 8px;
+  color: #2e2f42;
+}
+
+.features li p {
+  font-size: 16px;
+  margin: 0;
+  color: #555;
+}
+
 .footer {
   background-color: #2e2f42;
+  padding: 40px 156px;      
   color: #f4f4fd;
-  padding: 32px 16px;
 }
 
 .footer-left {
-  max-width: 500px;
+  display: flex;
+  flex-direction: column;     
+  align-items: flex-start;    
+  max-width: 500px;           
 }
 
-.footer-left .logo-dark {
-  font-family: "Raleway", sans-serif;
+.footer-left .logo-blue1 {
+  font-family: var(--font6);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
 }
 
-.footer-left .logo-dark .logo-blue {
-  color: #2e2f42;
+.footer-left p {
+  font-family: var(--second-family);
+  font-size: 16px;
+  line-height: 150%;
+  color: #f4f4fd;
+  margin-top: 100px;         
 }
 
-.footer-text {
-  font-family: inherit;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-size: 16px;
-  color: #f4f4fd;
-  margin-top: 16px;
-}
+
+
+
