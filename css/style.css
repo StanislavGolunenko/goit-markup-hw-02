@@ -11,6 +11,12 @@ height: 72px;
    overflow: hidden;
 }
 
+body {
+  font-family: "Roboto", sans-serif; 
+  color: #434455;                  
+  background-color: #FFFFFF;        
+}
+
 .header-link {
 font-family: var(--second-family);
 font-weight: 500;
