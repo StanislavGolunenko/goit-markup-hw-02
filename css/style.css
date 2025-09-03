@@ -18,17 +18,22 @@ header {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  
 }
 
 .logo-dark {
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
-  color: #2e2f42;
+    color: #4d5ae5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .logo-dark .logo-blue {
-  color: #4d5ae5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
 }
 
 .logo-dark span {
