@@ -1,131 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/modern-normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WebStudio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-
+  <!-- HEADER -->
   <header>
- <nav class="header-left">
-       <a class="logo-dark" href="./index.html"><span class="logo-blue">Web</span>Studio</a>
-
+    <nav class="header-left">
+      <a class="logo-dark" href="./index.html"><span class="logo-span">Studio</span></a>
       <ul class="menu">
-        <li><a class="header-link" href="#">Studio</a></li>
-        <li><a class="header-link" href="#">Portfolio</a></li>
-        <li><a class="header-link" href="#">Contacts</a></li>
+        <li><a class="header-link" href="./index.html">Studio</a></li>
+        <li><a class="header-link" href="./portfolio.html">Portfolio</a></li>
+        <li><a class="header-link" href="./contacts.html">Contacts</a></li>
       </ul>
-  </nav>
-
-    <address>
+    </nav>
+    <address class="header-address">
       <ul class="contacts">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
     </address>
   </header>
 
-  <main>
-  
-    <section class="order">
-      <h1>Effective Solutions <br> for Your Business</h1>
-      <button type="button">Order Service</button>
-    </section>
-
- 
-    <section class="features">
-      <h2>Features</h2>
-      <ul>
-        <li>
-          <h3>Strategy</h3>
-          <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-        </li>
-        <li>
-          <h3>Punctuality</h3>
-          <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-        </li>
-        <li>
-          <h3>Diligence</h3>
-          <p>Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
-        </li>
-        <li>
-          <h3>Technologies</h3>
-          <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-        </li>
-      </ul>
-    </section>
-
- 
-    <section class="ourteam">
-      <h2>Our Team</h2>
-     <nav>
-      <ul>
-        <li>
-          <img src="./images/img-3.jpg" alt="Mark Guerrero, Product Designer" width="264">
-          <h3>Mark Guerrero</h3>
-          <p>Product Designer</p>
-        </li>
-        <li>
-          <img src="./images/img-2.jpg" alt="Tom Ford, Frontend Developer" width="264">
-          <h3>Tom Ford</h3>
-          <p>Frontend Developer</p>
-        </li>
-        <li>
-          <img src="./images/img-1.jpg" alt="Camila Garcia, Marketing" width="264">
-          <h3>Camila Garcia</h3>
-          <p>Marketing</p>
-        </li>
-        <li>
-          <img src="./images/img.jpg" alt="Daniel Wilson, UI Designer" width="264">
-          <h3>Daniel Wilson</h3>
-          <p>UI Designer</p>
-        </li>
-      </ul>
-      </nav>
-    </section>
-
-    <section class="ourportfolio">
-    <h2>Our Portfolio</h2>
-    <ul>
-      <li><img src="./images/img (1).jpg">
-       <h3>Banking App</h3>
-          <p>App</p>
-        </li>
-
-        <li><img src="./images/img (2).jpg">
-       <h3>Cashless Payment</h3>
-          <p>Marketing</p>
-        </li>
-
-         <li><img src="./images/img (3).jpg">
-       <h3>Meditation App</h3>
-          <p>App</p>
-        </li>
-
-         <li><img src="./images/img (4).jpg">
-       <h3>Taxi Service</h3>
-          <p>Marketing</p>
-        </li>
-
-        <li><img src="./images/img (6).jpg">
-       <h3>Screen Illustrations</h3>
-          <p>Design</p>
-        </li>
-
-         <li><img src="./images/img (5).jpg">
-       <h3>Online Courses</h3>
-          <p>Marketing</p>
-        </li>
+  <!-- SECTION 1 -->
+  <section class="hero-section" style="background-color:#2e2f42;">
+    <h1 class="hero-title">Welcome to WebStudio</h1>
+    <button class="hero-button">Get Started</button>
+    <ul class="hero-list">
+      <li>
+        <h2 class="feature-title">Creative Design</h2>
+        <p class="feature-text">We craft beautiful interfaces.</p>
+      </li>
+      <li>
+        <h2 class="feature-title">Web Development</h2>
+        <p class="feature-text">Modern, fast, responsive websites.</p>
+      </li>
+      <li>
+        <h2 class="feature-title">Marketing</h2>
+        <p class="feature-text">Boost your brand online.</p>
+      </li>
+      <li>
+        <h2 class="feature-title">Consulting</h2>
+        <p class="feature-text">Expert advice for your business.</p>
+      </li>
     </ul>
-    </section>
-  </main>
+  </section>
 
-  <footer class="footer">
-   <a class="logo-blue1" href="./index.html"><span class="logo-white">Web</span>Studio</a>
-    <p>Increase the flow of customers and <br> sales for your business with digital <br> marketing & growth solutions.</p>
+  <!-- SECTION 2 -->
+  <section class="services-section" style="background-color:#F4F4FD;">
+    <ul class="services-list">
+      <li class="service-item">
+        <h3 class="service-title">Banking App</h3>
+        <p class="service-text">App</p>
+      </li>
+      <li class="service-item">
+        <h3 class="service-title">Cashless Payment</h3>
+        <p class="service-text">Marketing</p>
+      </li>
+      <li class="service-item">
+        <h3 class="service-title">Meditation App</h3>
+        <p class="service-text">App</p>
+      </li>
+      <li class="service-item">
+        <h3 class="service-title">Taxi Service</h3>
+        <p class="service-text">Marketing</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SECTION 3 -->
+  <section class="portfolio-section" style="background-color:#FFFFFF;">
+    <h2 class="section-title">Our Portfolio</h2>
+    <ul class="portfolio-list">
+      <li class="portfolio-item">
+        <img src="./images/banking.jpg" alt="Banking App" width="360" />
+        <h3 class="portfolio-title">Banking App</h3>
+        <p class="portfolio-text">App</p>
+      </li>
+      <li class="portfolio-item">
+        <img src="./images/cashless.jpg" alt="Cashless Payment" width="360" />
+        <h3 class="portfolio-title">Cashless Payment</h3>
+        <p class="portfolio-text">Marketing</p>
+      </li>
+      <li class="portfolio-item">
+        <img src="./images/meditation.jpg" alt="Meditation App" width="360" />
+        <h3 class="portfolio-title">Meditation App</h3>
+        <p class="portfolio-text">App</p>
+      </li>
+      <li class="portfolio-item">
+        <img src="./images/taxi.jpg" alt="Taxi Service" width="360" />
+        <h3 class="portfolio-title">Taxi Service</h3>
+        <p class="portfolio-text">Marketing</p>
+      </li>
+      <li class="portfolio-item">
+        <img src="./images/screen.jpg" alt="Screen Illustrations" width="360" />
+        <h3 class="portfolio-title">Screen Illustrations</h3>
+        <p class="portfolio-text">Design</p>
+      </li>
+      <li class="portfolio-item">
+        <img src="./images/online-courses.jpg" alt="Online Courses" width="360" />
+        <h3 class="portfolio-title">Online Courses</h3>
+        <p class="portfolio-text">Marketing</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SECTION 4 -->
+  <section class="features-section">
+    <h2 class="section-title">Our Features</h2>
+    <ul class="features-list">
+      <li class="feature-item">
+        <img src="./images/feature1.jpg" alt="Feature 1" width="360" />
+        <h3 class="feature-title">Banking App</h3>
+        <p class="feature-text">App</p>
+      </li>
+      <li class="feature-item">
+        <img src="./images/feature2.jpg" alt="Feature 2" width="360" />
+        <h3 class="feature-title">Cashless Payment</h3>
+        <p class="feature-text">Marketing</p>
+      </li>
+      <li class="feature-item">
+        <img src="./images/feature3.jpg" alt="Feature 3" width="360" />
+        <h3 class="feature-title">Meditation App</h3>
+        <p class="feature-text">App</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" style="background-color:#2e2f42;">
+    <div class="footer-left">
+      <a class="logo-dark" href="./index.html"><span class="logo-span">Studio</span></a>
+      <p class="footer-text">© 2025 WebStudio. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
