@@ -3,130 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/modern-normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <title>WebStudio</title>
+  <title>Web Studio</title>
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap">
+
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="css/modern-normalize.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
- <header>
-  <nav class="header-left">
-  
-    <a class="logo-dark" href="./index.html">
-      Web<span class="logo-blue">Studio</span>
-    </a>
-
- 
-    <ul class="menu">
-      <li><a class="menu-link" href="./index.html">Studio</a></li>
-      <li><a class="menu-link" href="">Portfolio</a></li>
-      <li><a class="menu-link" href="">Contacts</a></li>
-    </ul>
-  </nav>
-
-
-  <address class="header-contacts">
-    <ul class="contacts">
-      <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-    </ul>
-  </address>
-</header>
-
-  <main>
-  
-   <section class="hero">
-  <h1 class="hero-title">Effective Solutions for Your Business</h1>
-  <button class="hero-btn">Order Service</button>
-</section><section class="hero">
-  <h1 class="hero-title">Effective Solutions for Your Business</h1>
-  <button class="hero-btn">Order Service</button>
-</section>
-
- 
-   <section class="features">
-  <ul class="features-list">
-    <li class="features-item">
-      <h3 class="feature-title">Strategy</h3>
-      <p class="feature-text">
-        Our team develops an individual strategy for each project and selects
-        the most effective solutions.
-      </p>
-    </li>
-  </ul>
-</section>
-
- 
-    <section class="ourteam">
-      <h2>Our Team</h2>
-     <nav>
-      <ul>
-        <li>
-          <img src="./images/img-3.jpg" alt="Mark Guerrero, Product Designer" width="264">
-          <h3>Mark Guerrero</h3>
-          <p>Product Designer</p>
-        </li>
-        <li>
-          <img src="./images/img-2.jpg" alt="Tom Ford, Frontend Developer" width="264">
-          <h3>Tom Ford</h3>
-          <p>Frontend Developer</p>
-        </li>
-        <li>
-          <img src="./images/img-1.jpg" alt="Camila Garcia, Marketing" width="264">
-          <h3>Camila Garcia</h3>
-          <p>Marketing</p>
-        </li>
-        <li>
-          <img src="./images/img.jpg" alt="Daniel Wilson, UI Designer" width="264">
-          <h3>Daniel Wilson</h3>
-          <p>UI Designer</p>
-        </li>
+  <!-- Header -->
+  <header>
+    <nav class="header-left">
+      <a class="logo-dark" href="./index.html">
+        Web<span class="logo-blue">Studio</span>
+      </a>
+      <ul class="menu">
+        <li><a class="menu-link" href="./index.html">Studio</a></li>
+        <li><a class="menu-link" href="#">Portfolio</a></li>
+        <li><a class="menu-link" href="#">Contacts</a></li>
       </ul>
-      </nav>
-    </section>
+    </nav>
+    <address>
+      <ul class="contacts">
+        <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      </ul>
+    </address>
+  </header>
 
-    <section class="ourportfolio">
+  <!-- Hero / First Section -->
+  <section class="hero">
+    <h1 class="hero-title">Creative digital solutions for your business</h1>
+    <button class="hero-btn">Get Started</button>
+  </section>
+
+  <!-- Features / Second Section -->
+  <section class="features">
+    <h2 class="features-title">Our Services</h2>
+    <p class="features-text">
+      We provide a complete set of digital solutions to grow your business.
+    </p>
+    <ul class="features-list">
+      <li class="features-item">
+        <h3 class="feature-title">Strategy</h3>
+        <p class="feature-text">
+          Individual strategy for each project, selecting the most effective solutions.
+        </p>
+      </li>
+      <li class="features-item">
+        <h3 class="feature-title">Design</h3>
+        <p class="feature-text">
+          Attractive and user-friendly designs for websites and applications.
+        </p>
+      </li>
+      <li class="features-item">
+        <h3 class="feature-title">Development</h3>
+        <p class="feature-text">
+          High-quality code to bring your digital projects to life.
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Our Portfolio / Third Section -->
+  <section class="ourportfolio">
     <h2>Our Portfolio</h2>
     <ul>
-      <li><img src="./images/img1.jpg" alt="Banking App" width="360">
-       <h3>Banking App</h3>
-          <p>App</p>
-        </li>
-
-        <li><img src="./images/img2.jpg" alt="Cashless Payment" width="360">
-       <h3>Cashless Payment</h3>
-          <p>Marketing</p>
-        </li>
-
-         <li><img src="./images/img3.jpg" alt="Meditation App" width="360">
-       <h3>Meditation App</h3>
-          <p>App</p>
-        </li>
-
-         <li><img src="./images/img4.jpg" alt="Taxi Service" width="360">
-       <h3>Taxi Service</h3>
-          <p>Marketing</p>
-        </li>
-
-        <li><img src="./images/img6.jpg" alt="Screen Illustrations" width="360">
-       <h3>Screen Illustrations</h3>
-          <p>Design</p>
-        </li>
-
-         <li><img src="./images/img5.jpg"  alt="Online Courses" width="360">
-       <h3>Online Courses</h3>
-          <p>Marketing</p>
-        </li>
+      <li>
+        <img src="images/project1.jpg" width="300" alt="Project 1">
+        <h3>Project One</h3>
+        <p>Short description of project one.</p>
+      </li>
+      <li>
+        <img src="images/project2.jpg" width="300" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>Short description of project two.</p>
+      </li>
+      <li>
+        <img src="images/project3.jpg" width="300" alt="Project 3">
+        <h3>Project Three</h3>
+        <p>Short description of project three.</p>
+      </li>
     </ul>
-    </section>
-  </main>
+  </section>
 
+  <!-- Our Team / Fourth Section -->
+  <section class="ourteam">
+    <h2>Our Team</h2>
+    <ul>
+      <li>
+        <img src="images/team1.jpg" width="264" alt="Team Member 1">
+        <h3>John Doe</h3>
+        <p>Lead Designer</p>
+      </li>
+      <li>
+        <img src="images/team2.jpg" width="264" alt="Team Member 2">
+        <h3>Jane Smith</h3>
+        <p>Front-End Developer</p>
+      </li>
+      <li>
+        <img src="images/team3.jpg" width="264" alt="Team Member 3">
+        <h3>Mike Johnson</h3>
+        <p>Project Manager</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
   <footer class="footer">
-   <a class="logo-blue1" href="./index.html"><span class="logo-white">Web</span>Studio</a>
-    <p>Increase the flow of customers and <br> sales for your business with digital <br> marketing & growth solutions.</p>
+    <div class="footer-left">
+      <a class="logo-dark" href="./index.html">
+        Web<span class="logo-blue">Studio</span>
+      </a>
+      <p class="footer-text">
+        We create digital solutions that help your business grow.
+      </p>
+    </div>
   </footer>
 </body>
 </html>

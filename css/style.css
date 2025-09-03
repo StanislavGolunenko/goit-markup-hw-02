@@ -1,14 +1,18 @@
-/* Общие стили */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
+@import 'modern-normalize/modern-normalize.css';
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin: 0;
 }
 
-/* Header */
+/* ==============================================================
+   Header
+   ============================================================== */
 header {
-  background: #fff;
+  background-color: #fff;
   justify-content: space-around;
   margin: 0;
   overflow: hidden;
@@ -41,7 +45,7 @@ ul {
 }
 
 .menu-link {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -53,12 +57,8 @@ ul {
   color: #404bbf;
 }
 
-.header-contacts {
-  font-style: normal;
-}
-
 .contact-link {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   color: #434455;
   text-decoration: none;
 }
@@ -68,7 +68,9 @@ ul {
   color: #404bbf;
 }
 
-/* Hero / первая секция */
+/* ==============================================================
+   Hero / первая секция
+   ============================================================== */
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -79,7 +81,7 @@ ul {
 }
 
 .hero-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -99,35 +101,25 @@ ul {
   background-color: #404bbf;
 }
 
-/* Features / вторая секция */
-.features {
-  background: #fff;
-  text-align: center;
-}
-
-.features h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  color: #2e2f42;
-  margin-bottom: 40px;
-}
-
+/* ==============================================================
+   Features / 2-я секция
+   ============================================================== */
 .features-list {
   list-style: none;
-  max-width: 1128px;
   margin: 0 auto;
   padding: 0;
+  max-width: 1128px;
 }
 
 .features-item {
-  background: #f9f9f9;
+  background-color: #f9f9f9;
   text-align: left;
   margin-bottom: 16px;
   padding: 16px;
 }
 
 .feature-title {
+  font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -137,6 +129,7 @@ ul {
 }
 
 .feature-text {
+  font-family: inherit;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
@@ -144,22 +137,47 @@ ul {
   margin: 0;
 }
 
-/* Our portfolio */
+/* Заголовок секции features */
+.features-title {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 36px;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.features-text {
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  color: #434455;
+  margin-bottom: 24px;
+}
+
+/* ==============================================================
+   Our Portfolio / 3-я секция
+   ============================================================== */
 .ourportfolio {
-  background: #fff;
+  background-color: #fff;
 }
 
 .ourportfolio h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .ourportfolio ul {
   list-style: none;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
   max-width: 1128px;
@@ -167,7 +185,7 @@ ul {
 }
 
 .ourportfolio li {
-  background: #f9f9f9;
+  background-color: #f9f9f9;
   border: 1px solid #ddd;
   overflow: hidden;
 }
@@ -183,49 +201,64 @@ ul {
   color: #555;
 }
 
-/* Our team */
+/* ==============================================================
+   Our Team / 4-я секция
+   ============================================================== */
 .ourteam {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
 .ourteam h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
-  line-height: 111%;
   color: #2e2f42;
   margin-bottom: 40px;
 }
 
 .ourteam li {
-  background: #fff;
+  background-color: #fff;
   overflow: hidden;
   text-align: center;
 }
 
-/* Footer */
+/* ==============================================================
+   Footer
+   ============================================================== */
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 32px 16px;
 }
 
 .footer-left {
   max-width: 500px;
 }
 
-.footer-left .logo-blue1 {
+.footer-left .logo-dark {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
 }
 
-.footer-left p {
-  font-family: "Roboto", sans-serif;
+.footer-left .logo-dark .logo-blue {
+  color: #2e2f42;
+}
+
+.footer-text {
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-size: 16px;
-  line-height: 150%;
   color: #f4f4fd;
-  margin-top: 100px;
+  margin-top: 16px;
 }
