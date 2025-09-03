@@ -163,7 +163,7 @@ body {
 
 /* Кнопка */
 .hero-button {
-  background-color: #4D5AE5;
+  background-color: #404BBF;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -178,6 +178,7 @@ body {
   display: inline-block;
   transition: background-color 0.3s ease;
 }
+
 .logo-blue1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -410,4 +411,12 @@ button {
 .paragraf-footer {
   letter-spacing: 0.02em;
   line-height: 1.5;
+}
+
+.order {
+  background-color:  #2e2f42;
+}
+
+.click {
+  background-color: #404BBF;
 }
