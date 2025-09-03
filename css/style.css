@@ -9,16 +9,16 @@ body {
 .header {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 20px;
+
   background-color: #fff;
 }
 
 /* Навигация */
 .main-nav {
-  display: flex;
+
   justify-content: space-between;
-  align-items: center;
-  height: 72px;
+
+ 
 }
 
 /* Логотип */
@@ -45,10 +45,10 @@ body {
 /* Меню */
 .nav-menu {
   list-style: none;
-  display: flex;
-  gap: 24px;
+
+
   margin: 0;
-  padding: 0;
+
 }
 
 .nav-link {
@@ -73,10 +73,10 @@ body {
 
 .contact-info ul {
   list-style: none;
-  padding: 0;
+
   margin: 0;
-  display: flex;
-  gap: 16px;
+ 
+
 }
 
 .contact-link {
@@ -100,9 +100,9 @@ body {
 .contacts ul {
   list-style: none;
   margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 16px;
+
+
+
 }
 
 .contact-link {
@@ -147,8 +147,8 @@ body {
 
 .hero {
   background-color: #2e2f42;
-  padding: 200px 0 100px;
-  text-align: center;
+  
+
 }
 
 /* Заголовок секции */
@@ -170,12 +170,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  padding: 16px 32px;
+
   border: none;
   border-radius: 4px;
   cursor: pointer;
   margin-top: 48px;
-  display: inline-block;
+
   transition: background-color 0.3s ease;
 }
 
@@ -215,7 +215,7 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 188px;
+
   margin: 0;
 }
 
@@ -235,13 +235,13 @@ button {
   background-color: #ffffff;
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 16px;
+
   text-align: left;
 }
 
 /* Изображение внутри элемента списка */
 .portfolio-item img {
-  width: 100%;
+ 
   max-width: 360px;
   display: block;
   margin: 0 auto;
@@ -268,7 +268,7 @@ button {
 
 .services {
   background-color: #F4F4FD;
-  padding: 80px 0;
+
   text-align: center;
 }
 
@@ -286,24 +286,24 @@ button {
 
 .service-list {
   list-style: none;
-  padding: 0;
+
   margin: 0 auto;
-  display: grid;
+
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+
   max-width: 1128px;
 }
 
 .service-item {
   background-color: #FFFFFF;
-  padding: 20px;
+
   border-radius: 8px;
   text-align: center;
 }
 
 .service-item img {
-  width: 100%;
-  display: block;
+
+
 }
 
 .service-title {
@@ -325,7 +325,7 @@ button {
 
 .features {
   background-color: #F4F4FD;
-  padding: 80px 0;
+
   text-align: center;
 }
 
@@ -343,12 +343,12 @@ button {
 /* Список элементов */
 .features-list {
   list-style: none;
-  display: grid;
+
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+
   max-width: 1128px;
   margin: 0 auto;
-  padding: 0;
+
 }
 
 /* Элемент списка */
@@ -357,13 +357,13 @@ button {
   border-radius: 8px;
   overflow: hidden;
   text-align: center;
-  padding: 16px;
+
 }
 
 /* Изображения */
 .feature-item img {
-  width: 360px;
-  display: block;
+
+
   margin: 0 auto 16px;
 }
 
@@ -388,7 +388,7 @@ button {
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
-  padding: 40px 156px;      
+   
 }
 
 .footer-left .logo-blue1 {
