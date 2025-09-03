@@ -347,12 +347,11 @@ button {
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
-  text-align: center;
-
+  padding: 40px 0;
 }
 
-/* Логотип в футере */
-.footer .logo-link {
+/* Ссылка-логотип (перевикористано з хедера) */
+.logo-blue1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -362,24 +361,23 @@ button {
   text-decoration: none;
 }
 
-/* Первый span с цветом #f4f4fd */
-.footer .logo-link .logo-white {
+/* Первый span в лого (Web) */
+.logo-white {
   color: #f4f4fd;
 }
 
-/* Второй span для Studio (можно использовать отдельный класс) */
-.footer .logo-link .logo-text {
-  color: #2e2f42; /* если нужно, можно поменять на другой цвет */
+/* Второй span в лого (Studio) */
+.logo-text {
+  color: #2e2f42;
 }
 
-/* Параграф футера */
-.footer .paragraf-footer {
-  font-family: "Roboto", sans-serif;
+/* Параграф в футере */
+.paragraf-footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .order {
